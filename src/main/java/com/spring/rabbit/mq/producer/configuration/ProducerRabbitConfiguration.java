@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /*
- *  Argumentos passados na queue() 
+ *  Argumentos passados no queue() 
  *  	TRUE= quero que a fila seja duravel
  * 		FALSE= não quero que seja feita a exclusão 
  * 		FALSE= não que seja feita o alto completed 

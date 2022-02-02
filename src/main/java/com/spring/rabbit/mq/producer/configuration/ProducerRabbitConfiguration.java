@@ -22,10 +22,10 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class ProducerRabbitConfiguration {
 
-	@Value("${spring.rabbitmq.request.exchange.producer}")
+	@Value("${spring.rabbitmq.request.routing-key.producer}")
 	private String queue;
 	
-	@Value("${spring.rabbitmq.request.routing-key.producer}")
+	@Value("${spring.rabbitmq.request.exchange.producer}")
 	private String exchange;
 	
 	@Value("${spring.rabbitmq.request.dead-letter.producer}")

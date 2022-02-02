@@ -19,10 +19,10 @@ public class ProducerRabbitMQ implements AmqpProducer<Message> {
 	@Autowired
 	RabbitTemplate rabbitTemplate;
 
-	@Value("${spring.rabbitmq.request.exchange.producer}")
-	private String queue;
-
 	@Value("${spring.rabbitmq.request.routing-key.producer}")
+	private String queue;
+	
+	@Value("${spring.rabbitmq.request.exchange.producer}")
 	private String exchange;
 
 	@Override

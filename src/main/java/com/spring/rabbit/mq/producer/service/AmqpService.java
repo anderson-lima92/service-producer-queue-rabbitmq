@@ -1,6 +1,6 @@
 package com.spring.rabbit.mq.producer.service;
 
-import com.spring.rabbit.mq.producer.dto.Message;
+import com.spring.rabbit.mq.producer.model.dto.Message;
 
 public interface AmqpService {
 

@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.spring.rabbit.mq.producer.amqp.AmqpProducer;
-import com.spring.rabbit.mq.producer.dto.Message;
+import com.spring.rabbit.mq.producer.model.dto.Message;
 import com.spring.rabbit.mq.producer.service.AmqpService;
 
 /*

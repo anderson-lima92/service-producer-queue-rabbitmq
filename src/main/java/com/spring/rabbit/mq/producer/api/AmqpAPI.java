@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.spring.rabbit.mq.producer.dto.Message;
+import com.spring.rabbit.mq.producer.model.dto.Message;
 import com.spring.rabbit.mq.producer.service.AmqpService;
 
 @RestController

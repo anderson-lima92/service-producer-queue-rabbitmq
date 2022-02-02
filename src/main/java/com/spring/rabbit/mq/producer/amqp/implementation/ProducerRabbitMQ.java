@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import com.spring.rabbit.mq.producer.amqp.AmqpProducer;
-import com.spring.rabbit.mq.producer.dto.Message;
+import com.spring.rabbit.mq.producer.model.dto.Message;
 
 /*
  *  @throws AmqpRejectAndDontRequeueException exceção lançada quando ocorre qualquer tipo de erro, e ela envia para a DeadLetter.

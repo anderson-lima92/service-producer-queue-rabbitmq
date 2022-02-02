@@ -1,4 +1,4 @@
-package com.spring.rabbit.mq.producer.dto;
+package com.spring.rabbit.mq.producer.model.dto;
 
 import lombok.Getter;
 import lombok.Setter;
